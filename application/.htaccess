@@ -1,0 +1,6 @@
+<IfModule authz_core_module>
+    Options FollowSymLinks
+</IfModule>
+<IfModule !authz_core_module>
+    Options FollowSymLinks
+</IfModule>
